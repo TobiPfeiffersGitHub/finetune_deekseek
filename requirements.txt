@@ -1,0 +1,26 @@
+# Core ML & Transformers
+torch>=2.1.0
+transformers>=4.36.0
+accelerate>=0.24.0
+
+# Parameter-Efficient Fine-Tuning
+peft>=0.7.0
+
+# Datasets & Tokenization
+datasets>=2.16.0
+sentencepiece  # for tokenizer compatibility
+scikit-learn   # optional: evaluation metrics
+
+# Optional: experiment tracking/logging
+mlflow
+# wandb  # Uncomment if using Weights & Biases
+
+# Optional: Mac compatibility
+# Note: bitsandbytes is CUDA-only, won't work on macOS
+# If on Linux with NVIDIA GPU, you can uncomment:
+# bitsandbytes
+
+# Azure ML SDK (for deployment)
+azureml-core
+azureml-sdk
+azureml-mlflow

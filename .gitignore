@@ -1,0 +1,23 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore Hugging Face cache
+~/.cache/huggingface/
+
+# Ignore model outputs and checkpoints
+outputs/
+*.ckpt
+*.pt
+
+# Ignore config secrets
+.env
+wandb/
