@@ -1,10 +1,10 @@
-model_name: "unsloth/DeepSeek-R1-Distill-Llama-8B"
+model_name: "microsoft/phi-1_5"
 output_dir: "outputs"
-max_seq_length: 2048
+max_seq_length: 512
 load_in_4bit: true
 learning_rate: 2e-4
 num_train_epochs: 1
-per_device_train_batch_size: 2
+per_device_train_batch_size: 1
 gradient_accumulation_steps: 4
 max_steps: 50
 seed: 420
